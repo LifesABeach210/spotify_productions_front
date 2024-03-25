@@ -1,0 +1,28 @@
+.sidebar-playlist-data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.sidebar-data-map{
+    display: block;
+    text-overflow:ellipsis;
+
+}
+.test div{
+width: fit-content;
+}
+
+.sidebar-data-container{
+    height: 795px;
+}
+.sidebar-data-map img {
+    margin:10px;
+        text-overflow:ellipsis;
+}
+.sidebar-data-map-name{
+    display: flex;
+
+    text-overflow:ellipsis;
+}
