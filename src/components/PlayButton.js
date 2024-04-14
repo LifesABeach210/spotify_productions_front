@@ -39,11 +39,12 @@ export const PlayButton = ({ data, token }) => {
           className="play-button-container"
           onMouseUp={() => {
             const reqData = async () => {
-              const reponse = await dispatch(
+              const response = await dispatch(
                 spotifyPlaylistByIdTracks({
                   payload: { token, id },
                 })
               );
+              console.log("PLAY_BTN_RESP", response);
             };
             reqData();
           }}

@@ -3,9 +3,7 @@
     flex-direction: column;
     min-height: 0;
 }
-.sidbar-container{
-    display: none;
-}
+
 .sidebar-data-header{
     display: flex;
     gap: 8px 12px;
